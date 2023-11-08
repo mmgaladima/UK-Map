@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UK Map with D3.js</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+</head>
+<body>
+    <h1 style="color:white">Student Id: 2544464</h1>
+    <h2 style="color:white">Student Name: Mubarak Galadima</h2>
+    <div class="container">
+        <!-- button -->
+        <input class="button" type="button" value="Fetch other cities" onClick="window.location.reload()"> 
+         <!-- slider -->
+        <div class="slider-container">
+            <input type="range" min="1" max="500" value="10" class="slider" id="mySlider" onchange="myfunction()">
+            <input type="number" id="demo" name="fname" value="">
+           
+        </div>
+        
+    </div>
+    
+    <div id="map">
+        <div class="zoom-in">
+            <button onclick="zoomIn()">Zoom In</button>
+          </div>
+          <div class="zoom-out">
+            <button onclick="zoomOut()">Zoom Out</button>
+          </div>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>

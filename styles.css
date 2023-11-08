@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background: rgb(109, 109, 139);
+}
+input{
+    padding: 0.4em;
+    margin: 1.5em;
+}
+
+.circle:hover{
+    stroke: black;
+    stroke-width: 4px;
+  }
+
+  .tooltip{
+    position: fixed;
+  }
+
+
+  .slider-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.slider {
+    width: 20%;
+}
+.container{
+    display: flex;
+ 
+}
+
+.button{
+    flex-grow: 0;
+}
+
+  .zoom-in {
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    
+  }
+  .zoom-out{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    
+  }
+  #map{
+    position: relative;
+  }
